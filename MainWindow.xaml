@@ -1,0 +1,21 @@
+﻿<Window x:Class="MakeUpParser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MakeUpParser"
+        mc:Ignorable="d"
+        Title="Make Up Parser" Height="269" Width="631">
+    <Grid>
+        <Button Content="Старт" HorizontalAlignment="Left" Margin="494,45,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click"/>
+        <CheckBox Content="Характеристики товара" HorizontalAlignment="Left" Margin="22,35,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Описание товара" HorizontalAlignment="Left" Margin="22,55,0,0" VerticalAlignment="Top"/>
+        <GroupBox Header="Дополнительные поля" Margin="10,10,150,110"/>
+        <TextBox HorizontalAlignment="Left" Margin="236,152,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Количество товара будет обработано:" HorizontalAlignment="Left" Margin="10,148,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Обработать все" HorizontalAlignment="Left" Margin="361,153,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="180,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="414" IsReadOnly="True"/>
+        <Button Content="Указать путь" HorizontalAlignment="Left" Margin="494,20,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Путь для сохранения файла:" HorizontalAlignment="Left" Margin="10,179,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
